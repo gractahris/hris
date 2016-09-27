@@ -1,0 +1,36 @@
+Subject: Registration Information
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Thank you for registering with us. Your registration details with us is as follow: 
+
+
+<!--FieldCaption_username-->: <!--username-->
+
+<!--FieldCaption_password-->: <!--password-->
+
+<!--FieldCaption_email-->: <!--email-->
+
+<!--FieldCaption_firstname-->: <!--firstname-->
+
+<!--FieldCaption_middlename-->: <!--middlename-->
+
+<!--FieldCaption_surname-->: <!--surname-->
+
+<!--FieldCaption_extensionname-->: <!--extensionname-->
+
+
+
+Please click the following link to activate your account:
+<!--ActivateLink-->
+
+
+Please feel free to contact us in case of further queries.
+
+Best Regards,
+Support

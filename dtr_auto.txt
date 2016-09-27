@@ -1,0 +1,133 @@
+foreach($getAllMonth as $keyMonth=>$valMonth)
+	{
+		
+		if($valMonth['month_val'] <> "02")
+		{
+			if($valMonth['month_val'] % 2 == true)
+			{
+				for($counter = 1; $counter <= 31; $counter++)
+				{		
+					foreach($getAllYear as $keyYear => $valYear)
+					{
+						echo $valAllEmp['emp_id'];
+						echo "=>";
+						echo $valMonth['month_val'];
+						echo "=>";
+						// echo $counter;
+						// echo "=>";
+						echo $valYear['year_val'];
+						echo "=>";
+						$getDupDTR = $createDTRDAO->getDupDTR($valAllEmp['emp_id'],$valMonth['month_val'],$valYear['year_val']);
+						//foreach($getDupDTR)
+						
+						if($getDupDTR == NULL)
+						{
+							$saveDTR = $createDTRDAO->saveDTR($valAllEmp['emp_id'],$valMonth['month_val'], $counter, $valYear['year_val']);
+							echo "0";//currently inserting
+						}else
+						{
+							echo "1";//already inserted
+						}
+						
+						
+						echo "<br/>";
+						
+					}
+					
+					// $saveDTR = "";
+									
+				}//end of for
+				
+			}else if($valMonth['month_val'] % 2 == false)
+			{
+				for($counter = 1; $counter <= 30; $counter++)
+				{		
+					// $saveDTR = $createDTRDAO->saveDTR($_GET['emp_id'],$_GET["month"], $counter, $_GET["year"]);
+					$saveDTR = "";
+					
+					foreach($getAllYear as $keyYear => $valYear)
+					{
+						echo $valAllEmp['emp_id'];
+						echo "=>";
+						echo $valMonth['month_val'];
+						echo "=>";
+						// echo $counter;
+						// echo "=>";
+						echo $valYear['year_val'];
+						echo "=>";
+						$getDupDTR = $createDTRDAO->getDupDTR($valAllEmp['emp_id'],$valMonth['month_val'],$valYear['year_val']);
+						//foreach($getDupDTR)
+						
+						if($getDupDTR == NULL)
+						{
+							$saveDTR = $createDTRDAO->saveDTR($valAllEmp['emp_id'],$valMonth['month_val'], $counter, $valYear['year_val']);
+							echo "0";//currently inserting
+						}
+						// else
+						// {
+							// echo "1";//already inserted
+						// }
+						
+						
+						echo "<br/>";
+					}
+									
+				}//end of for
+				
+			}else
+			{
+				
+				
+			}
+			
+		}else
+		{
+			
+			for($counter = 1; $counter <= 28; $counter++)
+				{		
+					//$saveDTR = $createDTRDAO->saveDTR($_GET['emp_id'],$_GET["month"], $counter, $_GET["year"]);
+					$saveDTR = "";
+					
+					foreach($getAllYear as $keyYear => $valYear)
+					{
+						echo $valAllEmp['emp_id'];
+						echo "=>";
+						echo $valMonth['month_val'];
+						echo "=>";
+						// echo $counter;
+						// echo "=>";
+						echo $valYear['year_val'];
+						echo "=>";
+						$getDupDTR = $createDTRDAO->getDupDTR($valAllEmp['emp_id'],$valMonth['month_val'],$valYear['year_val']);
+						//foreach($getDupDTR)
+						
+						if($getDupDTR == NULL)
+						{
+							$saveDTR = $createDTRDAO->saveDTR($valAllEmp['emp_id'],$valMonth['month_val'], $counter, $valYear['year_val']);
+							echo "0";//currently inserting
+						}else
+						{
+							echo "1";//already inserted
+						}
+						
+						
+						echo "<br/>";
+					}
+					
+					
+				}//end of for
+			
+		}
+			
+			
+			// echo $valDay['day_title'];
+			echo "<br/>";
+		
+		
+		// foreach($getAllDay as $keyDay => $valDay )
+		// {
+			
+			
+		// }
+		
+	}//getAllMomth

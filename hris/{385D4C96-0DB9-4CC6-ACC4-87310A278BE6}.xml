@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<configuration date="2016/04/02" author="e.World Technology Ltd.">
+<project id="{385D4C96-0DB9-4CC6-ACC4-87310A278BE6}" file="C:\Users\CMALVAREZ\Documents\hris\hris.pmp" name="hris" product="PHPMaker" version="10.0" datetime="2016/04/02 13:57:58" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0">
+<table id="lib_deduction" name="lib_deduction" caption="Deduction" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_leave" name="lib_leave" caption="Leave" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_salary" name="lib_salary" caption="Salary" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_schedule" name="lib_schedule" caption="Schedule" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_sex" name="lib_sex" caption="Sex" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_tax_category" name="lib_tax_category" caption="Tax Category" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_employee" name="tbl_employee" caption="Employee" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_employee_deduction" name="tbl_employee_deduction" caption="Employee deduction" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_employee_leavecredit" name="tbl_employee_leavecredit" caption="Employee leavecredit" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_employee_timelog" name="tbl_employee_timelog" caption="Employee timelog" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_payroll" name="tbl_payroll" caption="tbl payroll" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_user_old" name="tbl_user_old" caption="tbl user old" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="audittrail" name="audittrail" caption="audittrail" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_user" name="tbl_user" caption="Users" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="userlevelpermissions" name="userlevelpermissions" caption="userlevelpermissions" userlevel="" priv="1"/>
+<table id="userlevels" name="userlevels" caption="userlevels" userlevel="" priv="1"/>
+<table id="tbl_employee_leaveapplication" name="tbl_employee_leaveapplication" caption="Leave Application" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="tbl_leavecoverage" name="tbl_leavecoverage" caption="Leave Coverage" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_status" name="lib_status" caption="lib status" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_holiday" name="lib_holiday" caption="lib holiday" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_month" name="lib_month" caption="lib month" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_day" name="lib_day" caption="lib day" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="lib_year" name="lib_year" caption="lib year" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>
